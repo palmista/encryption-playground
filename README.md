@@ -2,7 +2,7 @@
 
 by Chris Weber 2023
 
-## Sources and Inspirations
+## Sources
 
 - Main Source: [Java – Hybrid Cryptography example](https://mkyong.com/java/java-hybrid-cryptography-example/), by Marilena Panagiotidou
 - [Read public key from file in keystore](https://stackoverflow.com/questions/26711731/read-public-key-from-file-in-keystore) to get keys from keystore, by L.Butz
