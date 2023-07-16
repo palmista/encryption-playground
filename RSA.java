@@ -59,7 +59,7 @@ public class RSA {
     public static void generateKeyPair(int lenghtInBits) throws NoSuchAlgorithmException, IllegalBlockSizeException, 
             BadPaddingException, IOException {
         KeyPairGenerator generator = KeyPairGenerator.getInstance("RSA");
-        generator.initialize(2048);
+        generator.initialize(lenghtInBits);
         KeyPair pair = generator.generateKeyPair();
 
         PrivateKey privateKey = pair.getPrivate();
@@ -72,7 +72,7 @@ public class RSA {
     
     /** 
      * @param keystorePath path to keystore file
-     * @param alias the alias to export
+     * @param alias the alias which is to export
      * @param password keystore password
      * @throws NoSuchAlgorithmException
      * @throws NoSuchProviderException
